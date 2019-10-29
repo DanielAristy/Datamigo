@@ -159,3 +159,41 @@ input:focus{
     font-weight: bold;
     /*¨Poner negrita la letra*/
 }
+
+/*Header*/
+.header{
+    padding: 0 0 0 4rem;
+    background-color: #5E1aF2;
+    height: 4rem;
+    
+}
+
+.header .logotipo{
+    width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.registro{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.registro h1{
+    text-align: center;
+    padding: 0 0 2rem 0;
+}
+
+.registro form>div{
+    width: 50%;
+    float: left;
+}
+
+.registro input:not([type="submit"]){
+    width: 70%;
+    align-items: center;
+}
+
+.registrarse{
+    margin-top: 28rem;
+    text-align: center;
+}
+
