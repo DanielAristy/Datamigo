@@ -1,0 +1,161 @@
+* {
+    --primario: #5E1aF2;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--primario);
+}
+
+a {
+    color: var(--primario);
+}
+
+/*Hero*/
+
+.hero {
+    height: 41rem;
+    background-image: url("../img/store-832188_1920.svg");
+    background-color: var(--primario);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .hero{
+        height: 20rem;
+    }
+}
+
+.contenedor>div {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .contenedor>div{
+        width: 100%;
+    }
+}
+
+/*Logotipo*/
+
+.logotipo {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .logotipo {
+        width: 40%;
+    }
+}
+
+
+/*Login*/
+
+.login {
+    text-align: center;
+    margin-top: 7rem;
+}
+@media (max-width: 768px) {
+    .login {
+        margin-top: 1rem;
+    }
+}
+
+.login h1 {
+    font-size: 3rem;
+}
+@media (max-width: 768px) {
+    .login h1 {
+        font-size: 2rem;
+    }
+}
+
+.formulario {
+    color: var(--primario);
+    font-family: 'Roboto', sans-serif;
+    padding: 4rem;
+}
+
+@media (max-width: 768px) {
+    .formulario{
+        padding: 2rem;
+    }
+}
+
+
+.formulario a{
+    color: #8A8A8A;
+}
+
+.olvide-contraseña {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+
+
+/*Poder afectar los input*/
+
+input:not([type="submit"]) {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: #FCFCFC;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    input:not([type="submit"]){
+        margin-bottom: 1rem;
+    }
+}
+
+input:focus{
+    border-color: white;
+}
+
+.boton input {
+    border-radius: 1rem;
+    background-color: var(--primario);
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.boton input:hover {
+    cursor: pointer;
+}
+
+
+/*Links*/
+
+.link {
+    text-decoration: none;
+}
+
+.link span {
+    font-weight: bold;
+    /*¨Poner negrita la letra*/
+}
